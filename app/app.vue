@@ -1,6 +1,6 @@
 <script setup>
-// WordPressからデータを取得
-const { data: posts } = await useFetch('https://calmnote.s2-tastewp.com/wp-json/wp/v2/posts?_embed')
+// WordPressからデータを取得（新しいURLに差し替え完了！）
+const { data: posts } = await useFetch('https://catnow-app.s5-tastewp.com/wp-json/wp/v2/posts?_embed')
 </script>
 
 <template>
